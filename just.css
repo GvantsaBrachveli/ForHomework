@@ -1,0 +1,119 @@
+h1 {
+  background-color: lightBlue;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  background-color: PaleTurquoise;
+  color: black;
+  text-align: center;
+  margin: 5;
+  padding: 0;
+}
+
+.list1 {
+  border-style: dotted;
+  border-width: 2px;
+  border-color: lightblue;
+}
+.list2 {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: lightblue;
+}
+div {
+  background: HoneyDew;
+}
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+  width: 50%;
+  padding: 5px;
+}
+th,
+td {
+  padding: 15px;
+}
+th {
+  background-color: PaleTurquoise;
+  color: black;
+  font-size: 19px;
+}
+#footer {
+  background: lightblue;
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 18px;
+}
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: lightyellow;
+  }
+
+  h1 {
+    font-size: 24px;
+    color: lightyellow;
+    background: lightSeaGreen;
+    text-align: left;
+  }
+
+  h2 {
+    background: MediumAquaMarine;
+  }
+
+  div {
+    text-align: center;
+    color: darkgreen;
+    font-size: 20px;
+  }
+  table,
+  td,
+  th {
+    font-size: 20px;
+    color: lightyellow;
+    background-color: Teal;
+    border: strongwhite;
+  }
+
+  th {
+    background-color: lightSeaGreen;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background: pink;
+    text-align: center;
+  }
+  h1 {
+    background: orchid;
+    text-align: center;
+  }
+  h2 {
+    background: plum;
+  }
+  div {
+    background: LavenderBlush;
+    font-size: 22px;
+    color: hotpink;
+  }
+
+  table,
+  td,
+  th {
+    background-color: AliceBlue;
+    color: plum;
+    font-size:22px;
+    border: strong;
+    border-color: hotpink;
+    border-collapse: collapse;
+  }
+  td{background-color:lavander}
+}
